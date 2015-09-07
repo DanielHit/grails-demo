@@ -6,6 +6,7 @@ var handler = {} // 这是命名数组吗？
 handler["/"] = requestHandlers.stat;
 handler["/start"] = requestHandlers.start;
 handler["/upload"] = requestHandlers.upload;
+handler["/show"] = requestHandlers.show;
 
 // 传递一个数组进入，然后进行相应的处理
 server.start(route.route, handler);
