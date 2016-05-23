@@ -12,19 +12,27 @@ class Book {
         start(min: (new Date()).plus(-5))   // 使用groovy的语法进行操作 进行最小值限定
         title(inList: ["fuck", "hello"])
         email(email: true)
-        password(password: true)
-        age(min: 1, max: 100, validator: {
-            p -> p % 2 == 0
-        })
+        age(inList: [1, 2, 3])
+        paid()
     }
 
-    static belongsTo = [User]
+    static belongsTo = [user: User]
 
     def String name
     def double price
     def Date start
     def String title
     def String email
-    def String password
     def int age
+    def boolean paid
+
+
+    @Override
+    public String toString() {
+        final StringBuffer sb = new StringBuffer("Book{");
+        sb.append("name='").append(name).append('\'');
+        sb.append(", price=").append(price);
+        sb.append('}');
+        return sb.toString();
+    }
 }

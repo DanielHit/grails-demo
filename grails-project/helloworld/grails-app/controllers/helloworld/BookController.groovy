@@ -1,5 +1,7 @@
 package helloworld
 
+import org.springframework.web.bind.annotation.RequestMapping
+
 import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
 

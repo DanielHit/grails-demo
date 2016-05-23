@@ -1,22 +1,22 @@
 package helloworld
 
 import grails.test.mixin.TestFor
-import spock.lang.Specification
+import org.junit.Test
 
 /**
  * See the API for {@link grails.test.mixin.domain.DomainClassUnitTestMixin} for usage instructions
  */
 @TestFor(User)
-class UserSpec extends Specification {
+class UserSpec extends GroovyTestCase {
 
-    def setup() {
-    }
-
-    def cleanup() {
-    }
 
     void "test something"() {
-        expect:"fix me"
-            true == false
+        expect: "fix me"
+        true == true
+    }
+
+    @Test
+    void testName() {
+        assertTrue(1 == 2)
     }
 }
