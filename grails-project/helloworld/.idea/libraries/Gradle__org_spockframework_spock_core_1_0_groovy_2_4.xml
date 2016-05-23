@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: org.spockframework:spock-core:1.0-groovy-2.4">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/spockframework/spock-core/1.0-groovy-2.4/spock-core-1.0-groovy-2.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
