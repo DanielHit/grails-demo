@@ -35,11 +35,6 @@ class BookController {
             return
         }
 
-        if (book.getAge() > 100) {
-            respond book.errors, view: 'create'
-            return
-        }
-
         book.save flush: true
 
         request.withFormat {

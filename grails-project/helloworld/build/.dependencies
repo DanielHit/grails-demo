@@ -11,6 +11,7 @@ dependencies:
 - file:/Users/Daniel/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-ehcache/4.3.11.Final/cea0e6aba102c00cf899bd547c338fcf54468433/hibernate-ehcache-4.3.11.Final.jar
 - file:/Users/Daniel/.gradle/caches/modules-2/files-2.1/com.bertramlabs.plugins/asset-pipeline-grails/2.8.2/97bceaa633ee9f01b272e0b7fe9d960309ae43ab/asset-pipeline-grails-2.8.2.jar
 - file:/Users/Daniel/.m2/repository/com/h2database/h2/1.4.191/h2-1.4.191.jar
+- file:/Users/Daniel/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/5.1.29/91798a4463050f61598122fe7fdc24aa196dfc0c/mysql-connector-java-5.1.29.jar
 - file:/Users/Daniel/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-testing/3.1.6/79aee2ea91d7d7893dc53a90449c7c79e9ccf39e/grails-plugin-testing-3.1.6.jar
 - file:/Users/Daniel/.gradle/caches/modules-2/files-2.1/org.grails.plugins/geb/1.0.1/e18899087e1202746f44193d6c7a1657afd9260e/geb-1.0.1.jar
 - file:/Users/Daniel/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-htmlunit-driver/2.47.1/e4a31a8f8c8a36074a506449c1b476af86de4a58/selenium-htmlunit-driver-2.47.1.jar
